@@ -111,5 +111,6 @@ mergeSortBtn.addEventListener('click', async function(){
     enableSizeSlider();
 
     document.querySelector(".newArray").disabled = false;
-
+    await wait(5000);
+    createNewArray()
 })

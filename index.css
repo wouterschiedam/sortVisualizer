@@ -1,13 +1,14 @@
 body{
     color: rgb(232, 235, 231);
-    background-color: rgb(13, 3, 65);
+    background-color: rgb(0, 0, 0);
     font-size: 20px;
     text-align: center;
 }
 h3{
-    text-decoration: darkorange;
-    text-decoration-line: underline;
+    text-decoration: rgb(243, 0, 0);
+    /*text-decoration-line: underline;
     text-decoration-style:dashed;
+    */
     font-size: 30px;
 }
 /* div{
@@ -31,7 +32,7 @@ h3{
     display: flex;
     padding: 10px;
     justify-content: space-around;
-    color: cyan;
+    color: rgb(255, 255, 255);
     /* background-color: black; */
 }
 
@@ -43,8 +44,8 @@ h3{
 .btn{
     /* background: purple; */
     font-family:Georgia, 'Times New Roman', Times, serif;
-    border-color:rgb(17, 230, 159);
-    background-color: rgb(13, 3, 65);
+    border-color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     color: cyan;
     border-width: 2px;
     border-radius: 5%;
@@ -57,22 +58,22 @@ h3{
 
 .newArray
 {
-    background: rgb(13, 3, 65);
+    background: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px 15px;
     border-width: 2px;
     color: cyan;
-    border-color:rgb(17, 230, 159);
+    border-color:rgb(255, 255, 255);
     border-radius: 5%;
 }
 .newArray:hover{
-    color: yellow;
-    border-color: gold;
+    color: rgb(255, 0, 0);
+    border-color: rgb(255, 0, 0);
 }
 
 .btn:hover{
-    color: yellow;
-    border-color: gold;
+    color: rgb(255, 0, 0);
+    border-color: rgb(255, 0, 0);
 }
 
 

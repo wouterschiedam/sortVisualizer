@@ -27,4 +27,6 @@ bubSortbtn.addEventListener('click', async function(){
     enableSizeSlider();
     enableSortingBtn();
     document.querySelector('.newArray').disabled = false;
+    await wait(5000);
+    createNewArray()
 })
