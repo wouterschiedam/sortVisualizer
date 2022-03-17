@@ -23,6 +23,7 @@ async function insertionSort(){
         }
         ele[j+1].style.height = key;
 
+        
         ele[i].style.background = 'green'
     }
 }
